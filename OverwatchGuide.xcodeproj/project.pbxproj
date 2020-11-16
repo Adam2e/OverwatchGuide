@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22414B122562BEF200038534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414B112562BEF200038534 /* AppDelegate.swift */; };
+		22414B142562BEF200038534 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414B132562BEF200038534 /* SceneDelegate.swift */; };
+		22414B162562BEF200038534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414B152562BEF200038534 /* ViewController.swift */; };
+		22414B192562BEF200038534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22414B172562BEF200038534 /* Main.storyboard */; };
+		22414B1B2562BEFD00038534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22414B1A2562BEFD00038534 /* Assets.xcassets */; };
+		22414B1E2562BEFD00038534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22414B1C2562BEFD00038534 /* LaunchScreen.storyboard */; };
+		22414B292562BEFE00038534 /* OverwatchGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414B282562BEFE00038534 /* OverwatchGuideTests.swift */; };
+		22414B342562BEFF00038534 /* OverwatchGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414B332562BEFF00038534 /* OverwatchGuideUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22414B252562BEFE00038534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22414B062562BEF200038534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22414B0D2562BEF200038534;
+			remoteInfo = OverwatchGuide;
+		};
+		22414B302562BEFF00038534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22414B062562BEF200038534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22414B0D2562BEF200038534;
+			remoteInfo = OverwatchGuide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22414B0E2562BEF200038534 /* OverwatchGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverwatchGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22414B112562BEF200038534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22414B132562BEF200038534 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22414B152562BEF200038534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22414B182562BEF200038534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22414B1A2562BEFD00038534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22414B1D2562BEFD00038534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22414B1F2562BEFD00038534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22414B242562BEFE00038534 /* OverwatchGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverwatchGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22414B282562BEFE00038534 /* OverwatchGuideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchGuideTests.swift; sourceTree = "<group>"; };
+		22414B2A2562BEFE00038534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22414B2F2562BEFF00038534 /* OverwatchGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverwatchGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22414B332562BEFF00038534 /* OverwatchGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchGuideUITests.swift; sourceTree = "<group>"; };
+		22414B352562BEFF00038534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22414B0B2562BEF200038534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22414B212562BEFE00038534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22414B2C2562BEFF00038534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22414B052562BEF200038534 = {
+			isa = PBXGroup;
+			children = (
+				22414B102562BEF200038534 /* OverwatchGuide */,
+				22414B272562BEFE00038534 /* OverwatchGuideTests */,
+				22414B322562BEFF00038534 /* OverwatchGuideUITests */,
+				22414B0F2562BEF200038534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22414B0F2562BEF200038534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22414B0E2562BEF200038534 /* OverwatchGuide.app */,
+				22414B242562BEFE00038534 /* OverwatchGuideTests.xctest */,
+				22414B2F2562BEFF00038534 /* OverwatchGuideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22414B102562BEF200038534 /* OverwatchGuide */ = {
+			isa = PBXGroup;
+			children = (
+				22414B112562BEF200038534 /* AppDelegate.swift */,
+				22414B132562BEF200038534 /* SceneDelegate.swift */,
+				22414B152562BEF200038534 /* ViewController.swift */,
+				22414B172562BEF200038534 /* Main.storyboard */,
+				22414B1A2562BEFD00038534 /* Assets.xcassets */,
+				22414B1C2562BEFD00038534 /* LaunchScreen.storyboard */,
+				22414B1F2562BEFD00038534 /* Info.plist */,
+			);
+			path = OverwatchGuide;
+			sourceTree = "<group>";
+		};
+		22414B272562BEFE00038534 /* OverwatchGuideTests */ = {
+			isa = PBXGroup;
+			children = (
+				22414B282562BEFE00038534 /* OverwatchGuideTests.swift */,
+				22414B2A2562BEFE00038534 /* Info.plist */,
+			);
+			path = OverwatchGuideTests;
+			sourceTree = "<group>";
+		};
+		22414B322562BEFF00038534 /* OverwatchGuideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22414B332562BEFF00038534 /* OverwatchGuideUITests.swift */,
+				22414B352562BEFF00038534 /* Info.plist */,
+			);
+			path = OverwatchGuideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22414B0D2562BEF200038534 /* OverwatchGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22414B382562BEFF00038534 /* Build configuration list for PBXNativeTarget "OverwatchGuide" */;
+			buildPhases = (
+				22414B0A2562BEF200038534 /* Sources */,
+				22414B0B2562BEF200038534 /* Frameworks */,
+				22414B0C2562BEF200038534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverwatchGuide;
+			productName = OverwatchGuide;
+			productReference = 22414B0E2562BEF200038534 /* OverwatchGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22414B232562BEFE00038534 /* OverwatchGuideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22414B3B2562BEFF00038534 /* Build configuration list for PBXNativeTarget "OverwatchGuideTests" */;
+			buildPhases = (
+				22414B202562BEFE00038534 /* Sources */,
+				22414B212562BEFE00038534 /* Frameworks */,
+				22414B222562BEFE00038534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22414B262562BEFE00038534 /* PBXTargetDependency */,
+			);
+			name = OverwatchGuideTests;
+			productName = OverwatchGuideTests;
+			productReference = 22414B242562BEFE00038534 /* OverwatchGuideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22414B2E2562BEFF00038534 /* OverwatchGuideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22414B3E2562BEFF00038534 /* Build configuration list for PBXNativeTarget "OverwatchGuideUITests" */;
+			buildPhases = (
+				22414B2B2562BEFF00038534 /* Sources */,
+				22414B2C2562BEFF00038534 /* Frameworks */,
+				22414B2D2562BEFF00038534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22414B312562BEFF00038534 /* PBXTargetDependency */,
+			);
+			name = OverwatchGuideUITests;
+			productName = OverwatchGuideUITests;
+			productReference = 22414B2F2562BEFF00038534 /* OverwatchGuideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22414B062562BEF200038534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = adam;
+				TargetAttributes = {
+					22414B0D2562BEF200038534 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					22414B232562BEFE00038534 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 22414B0D2562BEF200038534;
+					};
+					22414B2E2562BEFF00038534 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 22414B0D2562BEF200038534;
+					};
+				};
+			};
+			buildConfigurationList = 22414B092562BEF200038534 /* Build configuration list for PBXProject "OverwatchGuide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22414B052562BEF200038534;
+			productRefGroup = 22414B0F2562BEF200038534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22414B0D2562BEF200038534 /* OverwatchGuide */,
+				22414B232562BEFE00038534 /* OverwatchGuideTests */,
+				22414B2E2562BEFF00038534 /* OverwatchGuideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22414B0C2562BEF200038534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22414B1E2562BEFD00038534 /* LaunchScreen.storyboard in Resources */,
+				22414B1B2562BEFD00038534 /* Assets.xcassets in Resources */,
+				22414B192562BEF200038534 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22414B222562BEFE00038534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22414B2D2562BEFF00038534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22414B0A2562BEF200038534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22414B162562BEF200038534 /* ViewController.swift in Sources */,
+				22414B122562BEF200038534 /* AppDelegate.swift in Sources */,
+				22414B142562BEF200038534 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22414B202562BEFE00038534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22414B292562BEFE00038534 /* OverwatchGuideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22414B2B2562BEFF00038534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22414B342562BEFF00038534 /* OverwatchGuideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22414B262562BEFE00038534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22414B0D2562BEF200038534 /* OverwatchGuide */;
+			targetProxy = 22414B252562BEFE00038534 /* PBXContainerItemProxy */;
+		};
+		22414B312562BEFF00038534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22414B0D2562BEF200038534 /* OverwatchGuide */;
+			targetProxy = 22414B302562BEFF00038534 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22414B172562BEF200038534 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22414B182562BEF200038534 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22414B1C2562BEFD00038534 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22414B1D2562BEFD00038534 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22414B362562BEFF00038534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22414B372562BEFF00038534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22414B392562BEFF00038534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OverwatchGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tuohy.OverwatchGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22414B3A2562BEFF00038534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OverwatchGuide/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tuohy.OverwatchGuide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22414B3C2562BEFF00038534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OverwatchGuideTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tuohy.OverwatchGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OverwatchGuide.app/OverwatchGuide";
+			};
+			name = Debug;
+		};
+		22414B3D2562BEFF00038534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OverwatchGuideTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tuohy.OverwatchGuideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OverwatchGuide.app/OverwatchGuide";
+			};
+			name = Release;
+		};
+		22414B3F2562BEFF00038534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OverwatchGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tuohy.OverwatchGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OverwatchGuide;
+			};
+			name = Debug;
+		};
+		22414B402562BEFF00038534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OverwatchGuideUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tuohy.OverwatchGuideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OverwatchGuide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22414B092562BEF200038534 /* Build configuration list for PBXProject "OverwatchGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22414B362562BEFF00038534 /* Debug */,
+				22414B372562BEFF00038534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22414B382562BEFF00038534 /* Build configuration list for PBXNativeTarget "OverwatchGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22414B392562BEFF00038534 /* Debug */,
+				22414B3A2562BEFF00038534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22414B3B2562BEFF00038534 /* Build configuration list for PBXNativeTarget "OverwatchGuideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22414B3C2562BEFF00038534 /* Debug */,
+				22414B3D2562BEFF00038534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22414B3E2562BEFF00038534 /* Build configuration list for PBXNativeTarget "OverwatchGuideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22414B3F2562BEFF00038534 /* Debug */,
+				22414B402562BEFF00038534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22414B062562BEF200038534 /* Project object */;
+}
