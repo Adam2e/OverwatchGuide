@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220D5CC625680B10003DB64A /* CharacterTipsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220D5CC525680B10003DB64A /* CharacterTipsPicker.swift */; };
+		220D5CC825680CFD003DB64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220D5CC725680CFC003DB64A /* Assets.xcassets */; };
 		22414B122562BEF200038534 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414B112562BEF200038534 /* AppDelegate.swift */; };
 		22414B142562BEF200038534 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414B132562BEF200038534 /* SceneDelegate.swift */; };
 		22414B162562BEF200038534 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414B152562BEF200038534 /* ViewController.swift */; };
 		22414B192562BEF200038534 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22414B172562BEF200038534 /* Main.storyboard */; };
-		22414B1B2562BEFD00038534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22414B1A2562BEFD00038534 /* Assets.xcassets */; };
 		22414B1E2562BEFD00038534 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22414B1C2562BEFD00038534 /* LaunchScreen.storyboard */; };
 		22414B292562BEFE00038534 /* OverwatchGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414B282562BEFE00038534 /* OverwatchGuideTests.swift */; };
 		22414B342562BEFF00038534 /* OverwatchGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414B332562BEFF00038534 /* OverwatchGuideUITests.swift */; };
+		22414B422562C41A00038534 /* MapPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414B412562C41A00038534 /* MapPicker.swift */; };
+		22414B442562C5B900038534 /* CharacterClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414B432562C5B900038534 /* CharacterClass.swift */; };
+		22414B46256404D700038534 /* CompGraderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22414B45256404D700038534 /* CompGraderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		220D5CC525680B10003DB64A /* CharacterTipsPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTipsPicker.swift; sourceTree = "<group>"; };
+		220D5CC725680CFC003DB64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22414B0E2562BEF200038534 /* OverwatchGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverwatchGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22414B112562BEF200038534 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22414B132562BEF200038534 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		22414B152562BEF200038534 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22414B182562BEF200038534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		22414B1A2562BEFD00038534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22414B1D2562BEFD00038534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22414B1F2562BEFD00038534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22414B242562BEFE00038534 /* OverwatchGuideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverwatchGuideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +54,9 @@
 		22414B2F2562BEFF00038534 /* OverwatchGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverwatchGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22414B332562BEFF00038534 /* OverwatchGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverwatchGuideUITests.swift; sourceTree = "<group>"; };
 		22414B352562BEFF00038534 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22414B412562C41A00038534 /* MapPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPicker.swift; sourceTree = "<group>"; };
+		22414B432562C5B900038534 /* CharacterClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterClass.swift; sourceTree = "<group>"; };
+		22414B45256404D700038534 /* CompGraderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompGraderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +111,11 @@
 				22414B132562BEF200038534 /* SceneDelegate.swift */,
 				22414B152562BEF200038534 /* ViewController.swift */,
 				22414B172562BEF200038534 /* Main.storyboard */,
-				22414B1A2562BEFD00038534 /* Assets.xcassets */,
+				220D5CC525680B10003DB64A /* CharacterTipsPicker.swift */,
+				22414B45256404D700038534 /* CompGraderViewController.swift */,
+				22414B432562C5B900038534 /* CharacterClass.swift */,
+				22414B412562C41A00038534 /* MapPicker.swift */,
+				220D5CC725680CFC003DB64A /* Assets.xcassets */,
 				22414B1C2562BEFD00038534 /* LaunchScreen.storyboard */,
 				22414B1F2562BEFD00038534 /* Info.plist */,
 			);
@@ -233,7 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22414B1E2562BEFD00038534 /* LaunchScreen.storyboard in Resources */,
-				22414B1B2562BEFD00038534 /* Assets.xcassets in Resources */,
+				220D5CC825680CFD003DB64A /* Assets.xcassets in Resources */,
 				22414B192562BEF200038534 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22414B46256404D700038534 /* CompGraderViewController.swift in Sources */,
+				22414B442562C5B900038534 /* CharacterClass.swift in Sources */,
+				220D5CC625680B10003DB64A /* CharacterTipsPicker.swift in Sources */,
 				22414B162562BEF200038534 /* ViewController.swift in Sources */,
 				22414B122562BEF200038534 /* AppDelegate.swift in Sources */,
+				22414B422562C41A00038534 /* MapPicker.swift in Sources */,
 				22414B142562BEF200038534 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
